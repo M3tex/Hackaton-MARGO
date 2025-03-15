@@ -1,10 +1,3 @@
-//
-//  README.md
-//  HackatonMARGO
-//
-//  Created by Mathis Sedkaoui on 15/03/2025.
-//
-
 # Hackaton MARGO
 
 Notre application utilise l'API m-TAG proposée dans le sujet pour calculer les trajets en transports en commun et en marchant.
