@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D75E896B2D857CAB007E9497 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D75E896A2D857CA4007E9497 /* README.md */; };
 		D770F4392D849D5100F460C1 /* Polyline in Frameworks */ = {isa = PBXBuildFile; productRef = D770F4382D849D5100F460C1 /* Polyline */; };
+		D78CEA552D85894A005A7E5A /* IMG_4427.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D78CEA542D85894A005A7E5A /* IMG_4427.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		D75E896A2D857CA4007E9497 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D78CEA542D85894A005A7E5A /* IMG_4427.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4427.PNG; sourceTree = "<group>"; };
 		D7FE72C62D831BC000703E2F /* HackatonMARGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackatonMARGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FE72D82D831BC400703E2F /* HackatonMARGOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackatonMARGOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FE72E22D831BC400703E2F /* HackatonMARGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackatonMARGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 				D7FE72DB2D831BC400703E2F /* HackatonMARGOTests */,
 				D7FE72E52D831BC400703E2F /* HackatonMARGOUITests */,
 				D7FE72C72D831BC000703E2F /* Products */,
+				D78CEA542D85894A005A7E5A /* IMG_4427.PNG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D75E896B2D857CAB007E9497 /* README.md in Resources */,
+				D78CEA552D85894A005A7E5A /* IMG_4427.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
