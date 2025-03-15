@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import CoreLocation
 
 @main
 struct HackatonMARGOApp: App {
@@ -15,7 +16,11 @@ struct HackatonMARGOApp: App {
             Item.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
+        
+        // Accès à la position
+        let locationManager = CLLocationManager()
+        locationManager.requestWhenInUseAuthorization()
+        
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {

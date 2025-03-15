@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D75E896B2D857CAB007E9497 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D75E896A2D857CA4007E9497 /* README.md */; };
+		D770F4392D849D5100F460C1 /* Polyline in Frameworks */ = {isa = PBXBuildFile; productRef = D770F4382D849D5100F460C1 /* Polyline */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D7FE72D92D831BC400703E2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D75E896A2D857CA4007E9497 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D7FE72C62D831BC000703E2F /* HackatonMARGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackatonMARGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FE72D82D831BC400703E2F /* HackatonMARGOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackatonMARGOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FE72E22D831BC400703E2F /* HackatonMARGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackatonMARGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D770F4392D849D5100F460C1 /* Polyline in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +82,7 @@
 		D7FE72BD2D831BC000703E2F = {
 			isa = PBXGroup;
 			children = (
+				D75E896A2D857CA4007E9497 /* README.md */,
 				D7FE72C82D831BC000703E2F /* HackatonMARGO */,
 				D7FE72DB2D831BC400703E2F /* HackatonMARGOTests */,
 				D7FE72E52D831BC400703E2F /* HackatonMARGOUITests */,
@@ -112,6 +120,7 @@
 			);
 			name = HackatonMARGO;
 			packageProductDependencies = (
+				D770F4382D849D5100F460C1 /* Polyline */,
 			);
 			productName = HackatonMARGO;
 			productReference = D7FE72C62D831BC000703E2F /* HackatonMARGO.app */;
@@ -195,6 +204,9 @@
 			);
 			mainGroup = D7FE72BD2D831BC000703E2F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D76296592D849AEE00C797EF /* XCRemoteSwiftPackageReference "Polyline" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D7FE72C72D831BC000703E2F /* Products */;
 			projectDirPath = "";
@@ -212,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75E896B2D857CAB007E9497 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +412,7 @@
 				DEVELOPMENT_TEAM = TC9C76K745;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Pour vous localiser sur la carte";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +442,7 @@
 				DEVELOPMENT_TEAM = TC9C76K745;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Pour vous localiser sur la carte";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +573,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D76296592D849AEE00C797EF /* XCRemoteSwiftPackageReference "Polyline" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raphaelmor/Polyline.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D770F4382D849D5100F460C1 /* Polyline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D76296592D849AEE00C797EF /* XCRemoteSwiftPackageReference "Polyline" */;
+			productName = Polyline;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D7FE72BE2D831BC000703E2F /* Project object */;
 }
